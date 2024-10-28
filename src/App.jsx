@@ -1,6 +1,6 @@
 import './App.css'
 import ParallaxOne from './components/ParallaxOne'
-import ParallaxTwo from './components/parallaxTwo'
+import ParallaxTwo from './components/ParallaxTwo'
 import ParallaxThree from './components/ParallaxThree'
 import TajMahal from './components/TajMahal'
 import KeralaBoat from './components/KeralaBoat'

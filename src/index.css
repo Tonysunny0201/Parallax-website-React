@@ -10,6 +10,9 @@ body{
 .parallax{
     position: relative;
     height: 100vh;
+    transform: translateZ(0);
+    will-change: transform;
+    overflow: hidden; /* This can sometimes help to reduce shakiness */
 }
 
 .content{
@@ -43,3 +46,4 @@ h3{
     padding: 3rem 1rem;
     text-align: justify;
 }
+
